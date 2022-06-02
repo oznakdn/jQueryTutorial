@@ -55,9 +55,11 @@ function Stop(){
 
 /**** Animate ****/
 
-
 $("#btn").click(function(){
     $("#img2").animate({
-        left:'150px'
+        left:'150px',
+        opacity:'1',
+        height:'400px',
+        with:'400px'
     },2000)
 });
